@@ -1,6 +1,6 @@
 
-CREATE DATABASE IF NOT EXISTS sched_db1;
-USE sched_db1;
+CREATE DATABASE IF NOT EXISTS sched_db;
+USE sched_db;
 
 
 -- 1 day
