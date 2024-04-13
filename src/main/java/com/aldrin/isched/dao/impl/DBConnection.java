@@ -22,9 +22,9 @@ public class DBConnection {
             try {
                 if (this.getCon() == null || this.getCon().isClosed()) {
                     try {
-                        String url = "jdbc:mysql://localhost:3306/sched_db1";
+                        String url = "jdbc:mysql://localhost:3306/sched_db";
                         Class.forName("com.mysql.cj.jdbc.Driver");
-                        setCon(DriverManager.getConnection(url, "root", "aldrin"));
+                        setCon(DriverManager.getConnection(url, "root", ""));
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
